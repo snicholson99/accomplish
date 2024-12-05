@@ -1,0 +1,35 @@
+header {
+  /* background-color: #c3c3c3; */
+  background-color: #1e1e1e;
+  /* border: 1px solid black; */
+  padding: 20px 6%;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0 0 4 0; */
+}
+
+header {
+  --header-height: 80px;
+  height: var(--header-height);
+  top: 0;
+}
+
+header .Header-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header .Header-links a {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#header-user-img {
+  max-height: 40px;
+  border-radius: 50%;
+}
